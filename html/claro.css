@@ -1,0 +1,39 @@
+h2 {
+    color: #c1a57b;
+    text-align: center;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #30475e;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    color: #222831;
+    font-family: serif;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body {
+    background-color: #ececec;
+    text-align: center;
+}
+
+
+/*nav {
+    border-style: double;
+    border-width: thick;
+    margin-right: 500px;
+}*/
+
+footer,
+nav {
+    text-align: left;
+}
