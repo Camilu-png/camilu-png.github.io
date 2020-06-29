@@ -1,0 +1,92 @@
+header {
+    display: inline;
+    background-color: azure;
+}
+
+h2 {
+    color: #c1a57b;
+    text-align: center;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+    font-family: sans-serif, Arial;
+}
+
+h1 {
+    color: #30475e;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+    text-align: center;
+    font-family: sans-serif, Arial;
+}
+
+h3,
+h4 {
+    text-align: center;
+    font-family: sans-serif, Arial;
+}
+
+#tesis {
+    color: blue;
+}
+
+.dibujos {
+    text-align: center;
+}
+
+header,
+section,
+nav,
+footer,
+aside,
+article {
+    border: 1px solid black;
+    display: block;
+    padding: 5px;
+}
+
+section {
+    margin: 20px;
+    background-color: aliceblue;
+    width: 65%;
+}
+
+#columna {
+    width: 25%;
+    border: 1px solid black;
+    background-color: azure;
+    float: right;
+    margin: 20px;
+}
+
+#down {
+    clear: both;
+}
+
+p {
+    color: #222831;
+    font-family: serif, Arial;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body {
+    background-color: #ececec;
+}
+
+figure {
+    text-align: right;
+}
+
+details {
+    font-style: italic;
+}
+
+.poemas {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+footer,
+nav {
+    text-align: left;
+}
