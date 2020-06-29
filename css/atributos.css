@@ -9,6 +9,12 @@ article {
     border: 1px solid black;
 }
 
+h1 {
+    font: 30px bold sans-serif;
+    color: #0F0FFF;
+    text-align: center;
+}
+
 h2 {
     color: #631093;
     text-align: center;
@@ -16,16 +22,11 @@ h2 {
     text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
 }
 
-h1 {
-    font: 30px bold sans-serif;
-    color: #0F0FFF;
-    text-align: center;
-}
-
 section {
-    margin: 20px;
+    margin: 2%;
     background-color: rgb(255, 221, 127);
     width: 65%;
+    float: left;
 }
 
 #columna {
@@ -33,7 +34,7 @@ section {
     border: 1px solid black;
     background-color: rgb(255, 221, 125);
     float: right;
-    margin: 20px;
+    margin: 2%;
 }
 
 #down {
@@ -46,9 +47,7 @@ p {
     text-align: center;
     font-size: 115%;
     font-variant: small-caps;
-    margin-top: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5%;
 }
 
 img {
