@@ -1,15 +1,6 @@
-header,
-section,
-nav,
-footer,
-aside,
-article {
-    border: 1px solid black;
-    display: block;
-}
-
 header {
     background-color: azure;
+    border: 1px solid black;
 }
 
 h1 {
@@ -26,14 +17,45 @@ h2 {
     font-family: sans-serif, Arial;
 }
 
-h3,
-h4 {
-    text-align: center;
-    font-family: sans-serif;
-}
-
 h5 {
     margin-left: 5%;
+}
+
+.galeria {
+    height: calc( 300px + 3em);
+    width: 260px;
+    margin: 1em auto;
+    position: relative;
+}
+
+.galeria img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.galeria input[type=radio] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: .5em;
+}
+
+.galeria input[type=radio]:nth-of-type(1):checked~img:nth-of-type(1) {
+    opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked~img:nth-of-type(2) {
+    opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked~img:nth-of-type(3) {
+    opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked~img:nth-of-type(4) {
+    opacity: 1;
 }
 
 section {
@@ -41,6 +63,7 @@ section {
     background-color: aliceblue;
     width: 65%;
     float: left;
+    border: 1px solid black;
 }
 
 #tesis {
@@ -54,13 +77,14 @@ section {
 #columna {
     width: 25%;
     border: 1px solid black;
-    background-color: azure;
+    background-color: aliceblue;
     float: right;
     margin: 2%;
 }
 
 #down {
     clear: both;
+    padding: 2%;
 }
 
 .poemas {
@@ -72,7 +96,7 @@ section {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-p {
+.texto {
     color: #222831;
     font-family: serif;
     text-align: center;
@@ -84,10 +108,23 @@ p {
     text-align: justify;
     font-size: 115%;
     font-family: serif;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+article footer {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 figure {
     text-align: right;
+}
+
+hgroup {
+    text-align: center;
+    font-family: sans-serif;
 }
 
 body {
@@ -96,6 +133,11 @@ body {
 
 details {
     font-style: italic;
+}
+
+time {
+    text-align: center;
+    color: #c1a57b;
 }
 
 footer,
