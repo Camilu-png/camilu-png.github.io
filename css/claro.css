@@ -148,7 +148,9 @@ details {
 
 time {
     text-align: center;
-    color: #c1a57b;
+    color: #204051;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 107%;
 }
 
 a {

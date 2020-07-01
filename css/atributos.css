@@ -29,14 +29,17 @@ section {
 
 #columna {
     width: 25%;
+    font-size: 81%;
     border: 1px solid black;
     background-color: rgb(255, 221, 125);
     float: right;
     margin: 2%;
 }
 
-#columna a {
-    font-size: 100%;
+#columna li {
+    padding: 3%;
+    font-size: 115%;
+    list-style: none;
 }
 
 #bottom {
