@@ -1,6 +1,10 @@
 header {
-    background-color: azure;
+    background-color: #3b6978;
     border: 1px solid black;
+}
+
+header a {
+    color: #c1a57b;
 }
 
 h1 {
@@ -60,7 +64,7 @@ h5 {
 
 section {
     margin: 2%;
-    background-color: aliceblue;
+    background-color: #84a9ac;
     width: 65%;
     float: left;
     border: 1px solid black;
@@ -76,9 +80,9 @@ section {
 
 #columna {
     width: 25%;
-    font-size: 100%;
+    font-size: 81%;
     border: 1px solid black;
-    background-color: aliceblue;
+    background-color: #84a9ac;
     float: right;
     margin: 2%;
 }
@@ -95,6 +99,12 @@ section {
     font-style: oblique;
     text-align: justify;
     font-family: Verdana, Tahoma, sans-serif;
+}
+
+aside li {
+    padding: 3%;
+    font-size: 115%;
+    list-style: none;
 }
 
 .texto {
@@ -129,7 +139,7 @@ hgroup {
 }
 
 body {
-    background-color: #ececec;
+    background-color: #e7dfd5;
 }
 
 details {
@@ -139,6 +149,11 @@ details {
 time {
     text-align: center;
     color: #c1a57b;
+}
+
+a {
+    color: #204051;
+    font-family: sans-serif, Arial;
 }
 
 footer,
