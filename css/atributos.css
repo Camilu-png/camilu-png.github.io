@@ -1,7 +1,5 @@
-header,
+h1,
 section,
-nav,
-footer,
 aside,
 article {
     background-color: #FDFF75;
@@ -37,8 +35,17 @@ section {
     margin: 2%;
 }
 
-#down {
+#bottom {
     clear: both;
+}
+
+footer a,
+header a {
+    display: inline-block;
+    background-color: #fbe6d4;
+    border: 3px outset #fecb89;
+    padding: 3px;
+    color: #f37121;
 }
 
 p {
@@ -65,5 +72,5 @@ figcaption {
 
 footer,
 nav {
-    text-align: left;
+    text-align: center;
 }
