@@ -31,6 +31,7 @@ section {
     width: 25%;
     border: 1px solid black;
     background-color: rgb(255, 221, 125);
+    font-size: 100%;
     float: right;
     margin: 2%;
 }

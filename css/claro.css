@@ -76,13 +76,14 @@ section {
 
 #columna {
     width: 25%;
+    font-size: 100%;
     border: 1px solid black;
     background-color: aliceblue;
     float: right;
     margin: 2%;
 }
 
-#down {
+#bottom {
     clear: both;
     padding: 2%;
 }
