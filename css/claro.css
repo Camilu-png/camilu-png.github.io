@@ -1,17 +1,10 @@
-header {
-    background-color: #3b6978;
-    border: 1px solid black;
-}
-
-header a {
-    color: #c1a57b;
-}
-
 h1 {
     color: #30475e;
     text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
     text-align: center;
     font-family: sans-serif, Arial;
+    background-color: #b8e4c9;
+    border: 1px solid #e9fadd;
 }
 
 h2 {
@@ -65,7 +58,7 @@ h5 {
 section {
     margin: 2%;
     background-color: #84a9ac;
-    width: 65%;
+    width: 70%;
     float: left;
     border: 1px solid black;
 }
@@ -79,7 +72,7 @@ section {
 }
 
 #columna {
-    width: 25%;
+    width: 20%;
     font-size: 81%;
     border: 1px solid black;
     background-color: #84a9ac;
@@ -101,10 +94,12 @@ section {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-aside li {
-    padding: 3%;
-    font-size: 115%;
-    list-style: none;
+#poesia h3 {
+    text-align: center;
+}
+
+aside ul ul {
+    padding-left: 5%;
 }
 
 .texto {
@@ -133,6 +128,37 @@ figure {
     text-align: right;
 }
 
+footer a,
+header a {
+    display: inline-block;
+    background-color: #e9fadd;
+    border: 3px outset #b8e4c9;
+    padding: 3px;
+    color: #42291c;
+}
+
+header a:focus,
+footer a:focus {
+    background-color: #e3fdfd;
+    color: #a6e3e9;
+}
+
+header a:hover,
+footer a:hover {
+    background-color: #cbf1f5;
+    color: #71c9ce;
+}
+
+header a:active,
+footer a:active {
+    border: 2px inset #b8e4c9;
+}
+
+footer nav,
+header nav {
+    text-align: center;
+}
+
 hgroup {
     text-align: center;
     font-family: sans-serif;
@@ -140,6 +166,7 @@ hgroup {
 
 body {
     background-color: #e7dfd5;
+    margin: 4%;
 }
 
 details {
@@ -156,6 +183,7 @@ time {
 a {
     color: #204051;
     font-family: sans-serif, Arial;
+    text-decoration: none;
 }
 
 footer,
