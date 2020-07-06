@@ -1,0 +1,27 @@
+section,
+h1,
+aside {
+    width: 100%;
+    /*---Predetermina la cantidad de columnas---*/
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    /*---Genera los bordes redondeados---*/
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+
+body {
+    background: #666666;
+    background: -moz-linear-gradient(top, #cbf1f5, 0%, #a6e3e9 100%);
+    background: -webkit-linear-gradient(#cbf1f5, 0%, #a6e3e9 100%);
+    background: -o-linear-gradient(#cbf1f5, 0%, #a6e3e9 100%);
+    background: linear-gradient(#cbf1f5, 0%, #a6e3e9 100%);
+}

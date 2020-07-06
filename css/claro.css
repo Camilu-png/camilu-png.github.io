@@ -3,6 +3,9 @@ h1 {
     text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
     text-align: center;
     font-family: sans-serif, Arial;
+}
+
+header blockquote {
     background-color: #b8e4c9;
     border: 1px solid #e9fadd;
 }
@@ -189,4 +192,8 @@ a {
 footer,
 nav {
     text-align: left;
+}
+
+img {
+    border-radius: 45%;
 }

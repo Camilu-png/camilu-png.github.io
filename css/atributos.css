@@ -82,11 +82,21 @@ p {
 img {
     border-radius: 45%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.5;
+}
+
+video {
+    margin-left: 32%;
+    margin-right: 32%;
 }
 
 body {
-    background-color: #b8eef1;
+    /*background: linear-gradient(#cbf1f5, 10%, #a6e3e9, 100%);
+    background-color: #b8eef1;*/
     margin: 4%;
+    background-image: "/images/Camilu.jpg";
+    background-position: 20px 10px;
+    background-repeat: repeat;
 }
 
 figcaption {
