@@ -197,3 +197,7 @@ nav {
 img {
     border-radius: 45%;
 }
+
+.activo {
+    background-color: #f3ffff;
+}

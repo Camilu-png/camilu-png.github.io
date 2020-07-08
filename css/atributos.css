@@ -111,3 +111,7 @@ nav {
 ul ul {
     padding: 0px;
 }
+
+.activo {
+    background-color: #fff5d8;
+}
