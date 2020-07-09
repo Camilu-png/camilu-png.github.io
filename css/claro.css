@@ -97,6 +97,10 @@ section {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+#poesia summary {
+    padding: 5px 5%;
+}
+
 #poesia h3 {
     text-align: center;
 }
