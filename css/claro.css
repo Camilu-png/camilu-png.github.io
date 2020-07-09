@@ -138,6 +138,10 @@ header a {
     border: 3px outset #b8e4c9;
     padding: 3px;
     color: #42291c;
+    transition-property: color, background-color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .3s;
 }
 
 header a:focus,
@@ -154,7 +158,7 @@ footer a:hover {
 
 header a:active,
 footer a:active {
-    border: 2px inset #b8e4c9;
+    border: 3px inset #b8e4c9;
 }
 
 footer nav,
@@ -194,10 +198,20 @@ nav {
     text-align: left;
 }
 
-img {
+#amorcito {
     border-radius: 45%;
+    transition: border .2s linear, width .2s linear;
 }
 
 .activo {
     background-color: #f3ffff;
+}
+
+#amorcito:hover {
+    border: 3px solid #e9fadd;
+    width: 120px;
+}
+
+p::first-letter {
+    font-size: 150%;
 }
