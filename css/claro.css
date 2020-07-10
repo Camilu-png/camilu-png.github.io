@@ -205,8 +205,6 @@ nav {
 #amorcito {
     border-radius: 45%;
     transition: border .2s linear, width .2s ease;
-    transform: rotate(30deg);
-    transform: skew(0deg, 10deg);
 }
 
 .activo {
