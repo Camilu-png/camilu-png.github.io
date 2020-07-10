@@ -31,8 +31,22 @@ section {
     width: 25%;
     border: 1px solid black;
     background-color: rgb(255, 221, 125);
-    float: right;
-    margin: 2%;
+    margin-left: 65%;
+    margin-top: 2%;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    position: fixed;
+}
+
+#columna:hover {
+    background-color: rgb(255, 168, 98);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -moz-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.5);
 }
 
 #columna li {
