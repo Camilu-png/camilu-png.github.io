@@ -51,7 +51,6 @@ section {
 
 #columna li {
     padding: 3%;
-    list-style: none;
 }
 
 #bottom {
@@ -65,6 +64,9 @@ header a {
     border: 3px outset #fecb89;
     padding: 3px;
     color: #f37121;
+    transition: .5s background-color;
+    transition: .5s color;
+    transition-delay: .3s;
 }
 
 header a:focus,
