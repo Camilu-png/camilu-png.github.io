@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 0, 255);
+}
+
+.ctn-header {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.lbl-header {
+    font-family: cursive;
+    font-size: 20px;
+}
