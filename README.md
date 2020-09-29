@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Ulimac
 
-You can use the [editor on GitHub](https://github.com/Camilu-png/ulimac/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Gracias por ver mi repositorio. 
+Esto es la demostración del camino que tuve que recorrer para llegar aquí. 
+Estoy aprendiendo desarrollo Web así que esta es mi forma de practicar
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## ¿Cómo lo hiciste? 
 
-### Markdown
+He estado haciendo un par de cursos en Coursera y prontamente espero empezar con Platzi. Aunque por supuesto también me enseñó [w3schools](https://www.w3schools.com/ "El mejor lugar para aprender"). No sé qué hubiera hecho sin él.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Dato curioso
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Camilu-png/ulimac/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Ulimac es Camilu al revés. Camilú es como me decían en el colegio y es el nombre que utilizan mis amigos de la infancia.
