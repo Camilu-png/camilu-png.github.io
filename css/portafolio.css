@@ -152,12 +152,12 @@ h1 {
     width: 43%;
 }
 
-#more a {
-    color: #797979;
-}
-
 #more {
     text-align: right;
+}
+
+#more a {
+    color: #797979;
 }
 
 main section,
