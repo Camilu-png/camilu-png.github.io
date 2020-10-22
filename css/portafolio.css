@@ -9,6 +9,15 @@
     font-family: 'MuseoSans_500';
 }
 
+section img {
+    width: 80%;
+    margin: auto;
+}
+
+section figure {
+    text-align: center;
+}
+
 header img {
     margin-left: 1.5%;
     width: 6%;
