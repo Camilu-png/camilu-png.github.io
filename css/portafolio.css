@@ -9,8 +9,13 @@
     font-family: 'MuseoSans_500';
 }
 
-section img {
-    width: 80%;
+section img,
+{
+    width: 70%;
+    margin: auto;
+}
+
+section video {
     margin: auto;
 }
 
