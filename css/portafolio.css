@@ -9,8 +9,7 @@
     font-family: 'MuseoSans_500';
 }
 
-section img,
-{
+section img {
     width: 70%;
     margin: auto;
 }
@@ -220,8 +219,17 @@ main section,
 }
 
 .top {
-    margin-top: 17%;
+    margin-top: 10%;
     clear: both;
+}
+
+.platzi {
+    margin-top: 10%;
+    clear: both;
+}
+
+.platzi h2 {
+    color: #fbe6d4;
 }
 
 h1,
@@ -233,6 +241,25 @@ h2 {
 h3 {
     text-align: center;
     font-size: x-large;
+}
+
+.items h2 {
+    color: #fbe6d4;
+}
+
+.certificados {
+    margin: 3% 8%;
+}
+
+.certificados img {
+    width: 10%;
+    margin-right: 5%;
+    transition: border .2s linear, width .2s ease;
+}
+
+.certificados img:hover {
+    width: 12%;
+    transform: rotate(0deg);
 }
 
 h4 {
