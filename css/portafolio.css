@@ -44,6 +44,10 @@ header img {
     border: 2px solid #fff;
 }
 
+.menu li>a {
+    font-size: 90%;
+}
+
 nav ul {
     list-style: none;
     background-color: #1c1b24;
@@ -74,7 +78,8 @@ nav a {
     text-decoration: none;
     color: #fff;
     display: block;
-    padding-left: 15px;
+    font-size: 100%;
+    padding-left: 4%;
     transition: .5s background-color;
 }
 
@@ -198,12 +203,15 @@ main section,
 
 #columna {
     width: 12%;
-    height: 58vh;
+    height: 60%;
     border: 1px solid black;
     margin-left: 79%;
-    margin-top: 1%;
     position: fixed;
     padding: 1% 3%;
+    border-top-right-radius: 20% 20%;
+    border-bottom-right-radius: 20% 20%;
+    border-top-left-radius: 20% 20%;
+    border-bottom-left-radius: 20% 20%;
 }
 
 #cabecera h1 {
@@ -256,6 +264,41 @@ h3 {
     width: 10%;
     margin-right: 5%;
     transition: border .2s linear, width .2s ease;
+}
+
+.badge {
+    margin: 0% 10%;
+    margin-left: 14%;
+}
+
+.badge a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.badge img {
+    width: 70%;
+    margin-right: 5%;
+    transition: border .2s linear, width .2s ease;
+}
+
+.badge figure {
+    width: 13%;
+    text-align: center;
+    display: inline-block;
+}
+
+.badge figcaption {
+    color: #d7d7b4;
+    font-family: sans-serif;
+    font-style: oblique;
+    clear: both;
+    text-align: justify;
+}
+
+.badge img:hover {
+    width: 80%;
+    transform: rotate(0deg);
 }
 
 .certificados img:hover {
