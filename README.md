@@ -1,5 +1,4 @@
-# Ulimac :tw-1f609:
-
+# Ulimac 😉
 Gracias por ver mi repositorio. 
 Esto es la demostración del camino que tuve que recorrer para llegar aquí. 
 Estoy aprendiendo desarrollo Web así que esta es mi forma de practicar
@@ -14,4 +13,4 @@ Ulimac es Camilu al revés. Camilú es como me decían en el colegio y es el nom
 
 Link a portafolio: https://camilu-png.github.io/portafolio.html
 
-Gracias por llegar hasta aquí, no olvides de darle a la estrellita para saber que te ha gustado :tw-1f31f:
+Gracias por llegar hasta aquí, no olvides de darle a la estrellita para saber que te ha gustado  🌟 
