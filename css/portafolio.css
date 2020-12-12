@@ -293,7 +293,7 @@ h3 {
     font-family: sans-serif;
     font-style: oblique;
     clear: both;
-    text-align: justify;
+    text-align: center;
 }
 
 .badge img:hover {
@@ -387,4 +387,17 @@ footer a {
 footer a:hover {
     border-radius: 0%;
     opacity: 1;
+    background-color: #ffffff;
+}
+
+.portafolio {
+    width: auto;
+    margin: 0%;
+    background-color: #fff45c;
+}
+
+.portafolio section {
+    width: 45%;
+    display: inline-block;
+    padding: 2%;
 }
