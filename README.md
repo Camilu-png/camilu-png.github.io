@@ -5,7 +5,7 @@ Estoy aprendiendo desarrollo Web así que esta es mi forma de practicar
 
 ## ¿Cómo lo hice? 
 
-He estado haciendo un par de cursos en Coursera y prontamente espero empezar con Platzi. Aunque por supuesto también me enseñó [w3schools](https://www.w3schools.com/ "El mejor lugar para aprender"). No sé qué hubiera hecho sin él.
+He estado haciendo un par de cursos en Coursera y estoy comenzando con Platzi. Aunque por supuesto también me enseñó [w3schools](https://www.w3schools.com/ "El mejor lugar para aprender"). No sé qué hubiera hecho sin él.
 
 ## Dato curioso
 
