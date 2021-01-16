@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'MuseoSans_500';
+    src: url('../founts/museosans_500_macroman/MuseoSans_500-webfont.woff2') format('woff2'), url('../founts/museosans_500_macroman/MuseoSans_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'MuseoSans_500';
+}
+
+
+section img {
+    width: 70%;
+    margin: auto;
+}
+
+section video {
+    margin: auto;
+}
+
+section figure {
+    text-align: center;
+}
+
+header img {
+    margin-left: 1.5%;
+    width: 6%;
+    height: auto;
+    float: right;
+    position: absolute;
+    background-color: #d7d7b4;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    z-index: 1;
+}
+
+.menu {
+    position: fixed;
+    width: 80%;
+    border-bottom-left-radius: 200px 200px;
+    border-bottom-right-radius: 200px 200px;
+    margin-top: 0;
+    margin-left: 10%;
+    border: 2px solid #fff;
+}
+
+.menu li>a {
+    font-size: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #1c1b24;
+    text-align: center;
+    padding: 0;
+    z-index: 2;
+}
+
+nav li {
+    width: 15%;
+    border-right: 3px solid #d7d7b4;
+    height: 50px;
+    line-height: 50px;
+    font-size: 140%;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li li {
+    border-right: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 100%;
+    padding-left: 4%;
+    transition: .5s background-color;
+}
+
+nav a:hover {
+    background-color: #b19f00;
+}
+
+nav a.active {
+    background-color: #aaa;
+    color: #1c1b24;
+    cursor: default;
+}
+
+
+/* Sub Menus */
+
+nav li li {
+    font-size: .6em;
+}
+
+nav>ul>li {
+    text-align: center;
+}
+
+nav>ul>li>a {
+    padding-left: 0;
+}
+
+
+/* Sub Menus */
+
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    display: block;
+}
+
+li span {
+    opacity: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1b24;
+}
+
+.normal:hover {
+    opacity: 0;
+}
+
+h1 {
+    width: 80%;
+    margin: 4% 0;
+    font-size: 60%;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: left;
+    display: inline-block;
+    color: #d7d7b4;
+}
+
+.container {
+    margin-top: 10%;
+    margin-bottom: 25%;
+    padding: 1%;
+    width: 40%;
+    height: 30%;
+    display: inline-block;
+    background-color: #1c1b24;
+    border-top-right-radius: 200px 200px;
+    border-bottom-right-radius: 200px 200px;
+    border: 2px solid #fff;
+    border-left: none;
+    transition: 1s width;
+}
+
+.container:hover {
+    border-left: none;
+    width: 43%;
+}
+
+.more {
+    text-align: right;
+}
+
+.more a {
+    color: #797979;
+}
+
+main section,
+#columna {
+    margin-left: 5%;
+    width: 65%;
+    padding: 1% 4%;
+    text-align: left;
+    background-color: #d7d7b4;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    margin-bottom: 10%;
+}
+
+.margentop {
+    padding-top: 5%;
+}
+
+#columna img {
+    border-radius: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#columna {
+    width: 12%;
+    height: 60%;
+    border: 1px solid black;
+    margin-left: 79%;
+    position: fixed;
+    padding: 1% 3%;
+    border-top-right-radius: 20% 20%;
+    border-bottom-right-radius: 20% 20%;
+    border-top-left-radius: 20% 20%;
+    border-bottom-left-radius: 20% 20%;
+}
+
+#cabecera h1 {
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+}
+
+#cabecera {
+    text-align: center;
+    background-color: #1c1b24;
+}
+
+.margentop section {
+    margin-bottom: 5%;
+}
+
+.top {
+    margin-top: 10%;
+    clear: both;
+}
+
+.platzi {
+    margin-top: 10%;
+    clear: both;
+}
+
+.platzi h2 {
+    color: #fbe6d4;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.items h2 {
+    color: #fbe6d4;
+}
+
+.certificados {
+    width: 100%;
+    margin: 3% 10%;
+    margin-left: 30%;
+}
+
+.certificados img {
+    width: 10%;
+    margin-right: 5%;
+    transition: border .2s linear, width .2s ease;
+}
+
+.badge {
+    margin: 0% 10%;
+    margin-left: 14%;
+}
+
+.badge a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.badge img {
+    width: 70%;
+    margin-right: 5%;
+    transition: border .2s linear, width .2s ease;
+}
+
+.badge figure {
+    width: 13%;
+    text-align: center;
+    display: inline-block;
+}
+
+.badge figcaption {
+    color: #d7d7b4;
+    font-family: sans-serif;
+    font-style: oblique;
+    clear: both;
+    text-align: center;
+}
+
+.badge img:hover {
+    width: 80%;
+    transform: rotate(0deg);
+}
+
+.certificados img:hover {
+    width: 12%;
+    transform: rotate(0deg);
+}
+
+h4 {
+    font-size: large;
+}
+
+.divisor {
+    border: 1px solid #d7d7b4;
+}
+
+#tweet {
+    margin: auto 3%;
+}
+
+header {
+    background-image: url(https://i.imgur.com/7VHdW0M.jpg);
+    background-color: antiquewhite;
+}
+
+section a {
+    color: #8a1c9e;
+    text-decoration: none;
+}
+
+section a:visited {
+    color: rgb(0, 9, 112);
+}
+
+footer {
+    margin-top: 3%;
+    padding: 1% 4%;
+    text-align: justify;
+    width: 68%;
+    background-color: #d7d7b4;
+    color: #1c1b24;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    clear: both;
+    opacity: .8;
+    margin-bottom: 3%;
+}
+
+.items article {
+    border: 1px solid black;
+    margin-left: 2%;
+    width: 20%;
+    padding: 1% 2%;
+    text-align: left;
+    background-color: #d7d7b4;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    float: left;
+}
+
+.more {
+    text-align: right;
+}
+
+.items h3 {
+    font-size: large;
+}
+
+.items img {
+    width: 10%;
+}
+
+footer a {
+    display: inline-block;
+    border: 1px solid #fbe6d4;
+    border-radius: 40%;
+    padding: 3px;
+    color: #aaa;
+    transition: .5s border-radius;
+    transition-delay: .3s;
+}
+
+footer a:hover {
+    border-radius: 0%;
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.portafolio {
+    width: auto;
+    margin: 0%;
+    background-color: #fff45c;
+}
+
+.portafolio section {
+    width: 45%;
+    display: inline-block;
+    padding: 2%;
+}

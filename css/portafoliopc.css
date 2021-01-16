@@ -9,6 +9,7 @@
     font-family: 'MuseoSans_500';
 }
 
+
 section img {
     width: 70%;
     margin: auto;
@@ -266,7 +267,29 @@ h3 {
     margin-right: 5%;
     transition: border .2s linear, width .2s ease;
 }
+.izquierda{
+    float: left;
+    width: 46%;
+    padding-right: 0%;
+    margin-right: 0;
+}
+.izquierda img{
+    width: 20%;
+    margin-right: 10%;
+    transition: border .2s linear, width .2s ease;
+}
 
+.derecha{
+    overflow: hidden;
+    width: 46%;
+    margin-right: 0;
+    padding: 0;
+}
+.derecha img{
+    width: 20%;
+    margin-right: 10%;
+    transition: border .2s linear, width .2s ease;
+}
 .badge {
     margin: 0% 10%;
     margin-left: 14%;
@@ -302,8 +325,12 @@ h3 {
     transform: rotate(0deg);
 }
 
-.certificados img:hover {
-    width: 12%;
+.izquierda img:hover {
+    width: 22%;
+    transform: rotate(0deg);
+}
+.derecha img:hover {
+    width: 22%;
     transform: rotate(0deg);
 }
 
