@@ -60,11 +60,11 @@ nav ul {
 nav li {
     width: 15%;
     border-right: 3px solid #d7d7b4;
-    height: 50px;
-    line-height: 50px;
+    height: 10%;
+    line-height: 200%;
     font-size: 140%;
     display: inline-block;
-    margin-right: -4px;
+    margin-right: -.4%;
 }
 
 nav li:last-child {
@@ -257,32 +257,24 @@ h3 {
     color: #fbe6d4;
 }
 
-.certificados {
-    margin: 3% 10%;
-    margin-left: 19%;
-}
-
-.certificados img {
-    width: 10%;
-    margin-right: 5%;
-    transition: border .2s linear, width .2s ease;
-}
 .izquierda{
     float: left;
     width: 46%;
-    padding-right: 0%;
+    padding: 0;
     margin-right: 0;
 }
+
 .izquierda img{
     width: 20%;
-    margin-right: 10%;
+    margin-right: 0;
+    margin-left: 10%;
     transition: border .2s linear, width .2s ease;
 }
 
 .derecha{
     overflow: hidden;
     width: 46%;
-    margin-right: 0;
+    margin: 0;
     padding: 0;
 }
 .derecha img{
@@ -290,6 +282,7 @@ h3 {
     margin-right: 10%;
     transition: border .2s linear, width .2s ease;
 }
+
 .badge {
     margin: 0% 10%;
     margin-left: 14%;
@@ -349,6 +342,8 @@ h4 {
 header {
     background-image: url(https://i.imgur.com/7VHdW0M.jpg);
     background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section a {
@@ -423,9 +418,52 @@ footer a:hover {
     margin: 0%;
     background-color: #fff45c;
 }
-
+.certificados {
+    margin: 3% 10%;
+    margin-left: 19%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
 .portafolio section {
     width: 45%;
     display: inline-block;
     padding: 2%;
+}
+@media screen and (max-width:480){
+
+}
+@media screen and (max-width:320){
+
+}
+@media screen and (max-width:1024){
+
+}
+@media screen and (max-width:768px){
+    .certificados{
+        display: inline-block;
+        width: 100%;
+        margin-left: 25%;
+        margin-bottom: 0;
+    }
+    .izquierda{
+        float:none;
+        width: 50%;
+    }
+    .derecha{
+        overflow: unset;
+        width: 50%;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:991px) and (min-width:769px){
+
+    .izquierda{
+        float:none;
+        width: 50%;
+    }
+    .derecha{
+        overflow: unset;
+        width: 50%;
+    }
+    
 }
