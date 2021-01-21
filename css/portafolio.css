@@ -441,7 +441,7 @@ footer a:hover {
 
 
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .certificados{
         display: inline-block;
         width: 100%;
@@ -458,7 +458,35 @@ footer a:hover {
         margin-left: 5%;
     }
 }
-@media screen and (max-width:991px) and (min-width:769px){
+@media screen and (max-width:991px) and (min-width:768px){
+    .menu{
+        display:block;
+        height:auto;
+        width: 90%;
+        margin: 0;
+    }
+    nav > ul {
+        text-align: left;
+        padding-left:10%;
+    }
+    nav > ul > li > a {
+        padding-left: 2%; 
+        margin: auto 2%;
+    }
+    nav > ul > li{
+        width: 40%;
+        margin: auto .5%;
+        border: 1px solid #fff;
+        border-style: hidden;
+    }
+    .container{
+        width: 59%;
+        margin-top: 35%;
+    }
+    .container img{
+        margin-top: 2.5%;
+    }
+    
     .izquierda{
         float:none;
         width: 50%;
@@ -468,4 +496,12 @@ footer a:hover {
         width: 50%;
     }
     
+}
+@media screen and (min-width:2024px){
+    header{
+        background-image: none;
+    }
+    .container{
+        padding-bottom: 2%;
+    }
 }
