@@ -423,19 +423,22 @@ footer a:hover {
     margin-left: 19%;
     display: inline-flex;
     flex-wrap: wrap;
+    width: 71%;
 }
+
 .portafolio section {
     width: 45%;
     display: inline-block;
     padding: 2%;
 }
-@media screen and (max-width:480){
+@media screen and (max-width:480px){
 
 }
-@media screen and (max-width:320){
+@media screen and (max-width:320px){
 
 }
-@media screen and (max-width:1024){
+@media screen and (max-width:1024px){
+
 
 }
 @media screen and (max-width:768px){
@@ -456,7 +459,6 @@ footer a:hover {
     }
 }
 @media screen and (max-width:991px) and (min-width:769px){
-
     .izquierda{
         float:none;
         width: 50%;
