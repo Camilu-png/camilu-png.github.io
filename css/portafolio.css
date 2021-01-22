@@ -432,7 +432,39 @@ footer a:hover {
     padding: 2%;
 }
 @media screen and (max-width:480px){
+    .menu{
+        display:block;
+        height:auto;
+        width: 90%;
+        margin: 0;
+    }
+    nav > ul {
+        text-align: left;
+        padding-left:10%;
+    }
+    nav > ul > li > a {
+        padding-left: 2%; 
+        margin: auto 2%;
+    }
+    nav > ul > li{
+        width: 40%;
+        margin: auto .5%;
+        border: 1px solid #fff;
+        border-style: hidden;
+    }
+    .container{
+        width: auto;
+        margin-top: 35%;
+        transition: 1s width;
+    }
 
+    .container:hover {
+        border-left: none;
+        width: 100%;
+    }
+    .container img{
+        width: 15%;
+    }
 }
 @media screen and (max-width:320px){
 
@@ -441,7 +473,7 @@ footer a:hover {
 
 
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) and (min-width:481px){
     .certificados{
         display: inline-block;
         width: 100%;
