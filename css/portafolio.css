@@ -476,18 +476,19 @@ footer a:hover {
 @media screen and (max-width:767px) and (min-width:481px){
     .certificados{
         display: inline-block;
-        width: 100%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
         margin-bottom: 0;
+        margin-top: 0;
     }
     .izquierda{
         float:none;
-        width: 50%;
+        width: 100%;
     }
     .derecha{
         overflow: unset;
-        width: 50%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 10%;
     }
 }
 @media screen and (max-width:991px) and (min-width:768px){
