@@ -428,8 +428,15 @@ footer a:hover {
 
 .portafolio section {
     width: 45%;
-    /* display: inline-block; */
+    display: inline-block;
     padding: 2%;
+}
+.boton{
+    opacity: 0%;
+    position: absolute;
+}
+button{
+    position: relative;
 }
 @media screen and (max-width:480px){ /*Celular*/
     .menu{
@@ -437,6 +444,7 @@ footer a:hover {
         height:auto;
         width: 90%;
         margin: 0;
+        position:static;
     }
     nav > ul {
         text-align: left;
@@ -454,7 +462,7 @@ footer a:hover {
     }
     .container{
         width: auto;
-        margin-top: 35%;
+        margin-top: 20%;
         transition: 1s width;
     }
 
@@ -464,6 +472,7 @@ footer a:hover {
     }
     .container img{
         width: 15%;
+        margin-top: 5%;
     }
     .certificados{
         display: inline-block;
@@ -501,8 +510,20 @@ footer a:hover {
         width: 60%;
         left: 33%;
     }
-    footer section{
-        display: auto;
+    .portafolio section{
+        width: auto;
+    }
+    .boton{
+        opacity: 100%;
+        left: 75%;
+        
+    }
+    .boton a{
+        color: rgba(0, 0, 0);
+        border-style: hidden;
+    }
+    .boton a:hover {
+        background-color:initial;
     }
 }
 @media screen and (max-width:320px){
