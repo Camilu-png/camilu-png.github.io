@@ -460,12 +460,18 @@ button{
         z-index: 1;
 
     }
-    .menu{
+    .menu.is-active{
+        transition: .3s;
         display:block;
         height:auto;
         width: 90%;
         margin: 0;
         position:static;
+    }
+    .menu{
+        display:none;
+        
+
     }
     nav > ul {
         text-align: left;
