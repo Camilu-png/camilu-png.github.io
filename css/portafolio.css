@@ -439,6 +439,27 @@ button{
     position: relative;
 }
 @media screen and (max-width:480px){ /*Celular*/
+    .fa-folder,.fa-folder-open{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        position: fixed;
+        z-index: 2;
+        left: 1%;
+        top: 1%;
+        color: #fff;
+    }
+    .fa-folder:hover{
+        z-index: 0;
+    }
+    .fa-folder-open{
+        z-index: 1;
+
+    }
     .menu{
         display:block;
         height:auto;
