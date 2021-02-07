@@ -8,7 +8,10 @@
 * {
     font-family: 'MuseoSans_500';
 }
-
+.fa-folder,.fa-folder-open{
+    color:rgba(255, 255, 255, 0);
+    position:fixed;
+}
 
 section img {
     width: 70%;
@@ -344,6 +347,7 @@ header {
     background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
+    position:relative;
 }
 
 section a {
@@ -447,31 +451,28 @@ button{
         display: block;
         line-height: 40px;
         text-align: center;
-        position: fixed;
-        z-index: 2;
+        z-index: 4;
         left: 1%;
         top: 1%;
-        color: #fff;
-    }
-    .fa-folder:hover{
-        z-index: 0;
+        color: rgb(255, 255, 255);
     }
     .fa-folder-open{
-        z-index: 1;
-
+        color:rgba(255, 255, 255);
+    }
+    .fa-folder-open:hover{
+        color: rgb(255, 255, 255, 0);
+    }
+    .menu{
+        display:none;
     }
     .menu.is-active{
-        transition: .3s;
         display:block;
         height:auto;
         width: 90%;
         margin: 0;
         position:static;
-    }
-    .menu{
-        display:none;
-        
-
+        position:fixed;
+        z-index: 3;
     }
     nav > ul {
         text-align: left;
@@ -489,7 +490,7 @@ button{
     }
     .container{
         width: auto;
-        margin-top: 20%;
+        margin-top: 50%;
         transition: 1s width;
     }
 
