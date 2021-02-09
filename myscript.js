@@ -15,3 +15,16 @@ function hideShow(){
     }
     
 }
+// function validation(event){
+//     if (event.matches && window.screen.width < 480){
+//         document.querySelector('.fa-folder').addEventListener('click',hideShow)
+//         document.querySelector('.fa-folder-open').addEventListener('click',hideShow)
+//     }
+//     else{
+//         document.querySelector('.fa-folder').removeEventListener('click',hideShow)
+//         document.querySelector('.fa-folder-open').removeEventListener('click',hideShow)
+//     }
+    
+// }
+// const celular = window.matchMedia('screen and (max-width:480px)');
+// celular.addListener(validation)
