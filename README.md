@@ -14,3 +14,5 @@ Ulimac es Camilu al revés. Camilú es como me decían en el colegio y es el nom
 Link a portafolio: https://camilu-png.github.io/portafolio.html
 
 Gracias por llegar hasta aquí, no olvides de darle a la estrellita para saber que te ha gustado  🌟 
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Camilu-png/camilu-png.github.io?style=plastic)
