@@ -241,7 +241,7 @@ main section,
     clear: both;
 }
 
-.platzi h2 {
+h2{
     color: #fbe6d4;
 }
 
@@ -442,6 +442,27 @@ footer a:hover {
 button{
     position: relative;
 }
+.proyectos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.proyectos-container{
+    display: flex;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+.proyectos img{
+    display: block;
+    background-color: #1c1b24;
+}
+.proyectos button{
+    margin: 3%;
+    margin-left: 50%;
+}
 @media screen and (max-width:480px){ /*Celular*/
     .fa-folder,.fa-folder-open{
         width: 40px;
@@ -574,6 +595,10 @@ button{
         overflow: unset;
         width: 100%;
         margin-left: 10%;
+    }
+    .proyectos{
+        width: auto;
+        margin: 2% auto;
     }
 }
 @media screen and (max-width:991px) and (min-width:768px){
