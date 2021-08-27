@@ -456,6 +456,7 @@ button{
     flex-wrap: wrap;
 }
 .proyectos img{
+    height: 100px;
     display: block;
     background-color: #1c1b24;
 }
