@@ -455,11 +455,6 @@ button{
     padding: 1%;
     flex-wrap: wrap;
 }
-.proyectos img{
-    height: 100px;
-    display: block;
-    background-color: #1c1b24;
-}
 .proyectos button{
     margin: 3%;
     margin-left: 50%;
